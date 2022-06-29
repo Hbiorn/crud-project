@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(181, 247, 181);
+  font-family: "Shadows Into Light", cursive;
+}
+
+.title {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.form {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+input[type="submit"],
+button,
+[aria-label] {
+  cursor: pointer;
+}
+
+#edit-box {
+  display: none;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+td {
+  background-color: rgb(240, 247, 199);
+  padding-right: 10px;
+  text-align: left;
+}
+
+.to-do {
+  background-color: rgb(218, 255, 175);
+  min-height: 100px;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 32px;
+}
